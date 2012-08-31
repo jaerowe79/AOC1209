@@ -110,11 +110,11 @@
         }
         iLose++;
     }
-    return YES;
     
     NSLog(@"I guess I better meet back up with the rest of the family.");
     NSLog(@"That was a fun day!");
     
+    return YES;
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
